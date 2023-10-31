@@ -1,9 +1,7 @@
 function validate(){
         
-        let m = check1();
-        if(m==10){
-           
-        }  
+        check1();
+        
 }
  var c=0;  
      
@@ -130,7 +128,7 @@ function check1(){
     }
         
  
-    }
+}
 
     function Fname11()
     {
@@ -346,6 +344,7 @@ function check1(){
         }
         return false;
     }
+
     function getSelectedValue11(){
         const gender1=document.getElementById("gender");  
         let gn=document.getElementById("gn"); 
@@ -366,6 +365,7 @@ function check1(){
         }
         return false;
     }
+
     function date11(){
         let date=document.getElementById("dateInput");
         const Date=date.value;
@@ -388,6 +388,7 @@ function check1(){
         }
         return false;
     }
+
     function country11(){
         let country=document.getElementById("country");
     const Country=country.value;
@@ -409,6 +410,7 @@ function check1(){
         }
         return false;
     }
+
     function check11(){
         
         let check=document.getElementById("check");
@@ -429,6 +431,7 @@ function check1(){
         }
         return false;
     }
+    
     
    
 
